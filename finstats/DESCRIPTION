@@ -1,0 +1,21 @@
+Package: finstats
+Title: Estatística e Otimização Aplicadas a Finanças
+Version: 0.0.1
+Authors@R: 
+    person(given = "Danusio",
+           family = "Guimarães",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Funções para otimização de carteiras e análise estatística de preços.
+Imports:
+  magrittr,
+  quantmod,
+  TTR,
+  pracma,
+  DescTools
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
